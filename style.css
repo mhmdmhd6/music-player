@@ -1,0 +1,170 @@
+body {
+	background-color: #D1DFEB;
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	align-items: center;
+}
+.music-player{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+ img {
+	width: 300px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+	box-shadow: -14px -16px 14px -4px #fff,
+			    11px 11px 15px #b8bad4;
+}
+
+.live-player {
+	width: 310px;
+	height: 9px;
+	border-radius: 50px;
+	background: #b8bad4;
+	margin-bottom: 30px;
+	box-shadow: inset -3px -5px 8px #fbf7f7,
+					  inset 5px 5px 20px 0px #b8bad4,
+					  7px 7px 7px -3px #b8bad4,
+					  -16px -11px 20px -6px #fff;
+}
+.live-child {
+	width: 120px;
+	height: 9px;
+	background-color: #60adf5;
+	border-radius: 50px;
+}
+
+.music-parent {
+	width: 330px;	
+	height: 50px;
+    box-shadow: -8px -8px 18px -4px #fff,
+        		7px 8px 17px #b8bad4;
+	border-radius: 23px;
+		display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+input {
+	position: absolute;
+	visibility: hidden;
+}
+#checked {
+	padding: 17px 19px;	
+	box-shadow: -8px -8px 18px -4px #fff,
+          		7px 8px 17px #b8bad4;
+	border-radius: 50%;
+	background: linear-gradient(67deg , #D1DFEB , #E9EDF0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 400ms;
+	cursor: pointer;
+}
+label .fa-play {
+	font-size: 29px;
+	color: #60ADF5;
+	transition: 390ms;
+}
+#checked:checked + #checked {
+box-shadow: inset -4px -4px 12px #f1f1f1,
+ 				  inset 5px 5px 20px 0px #b8bad4,
+ 	 			  7px 8px 6px -3px #b8bad4,
+ 				  -16px -11px 20px -6px #fff;
+}
+#checked:checked + #checked i {
+	transform: rotate(360deg);
+}
+
+#check-back-left {
+	box-shadow: none !important;
+	padding: 0;
+	background: linear-gradient( 148deg , #dce4ee, transparent);
+    border-radius: 50%;
+}
+.fa-fast-backward {
+	font-size: 25px;
+	color: #b8bad4;
+	transition: 400ms;
+	padding: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.fa-fast-backward:active {
+	box-shadow: inset -4px -4px 12px #f1f1f1,
+	 				  inset 3px 3px 10px 0px #b8bad4,
+	      			  5px 5px 6px -3px #b8bad4,
+					  -5px -5px 6px -6px #fff;
+  	color: black;
+}
+
+#check-next-right {
+	box-shadow: none !important;
+	padding: 0;
+	background: linear-gradient(148deg , #dce4ee, transparent);
+    border-radius: 50%;
+}
+.fa-fast-forward {
+	font-size: 25px;
+	color: #b8bad4;
+	transition: 400ms;
+	padding: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.fa-fast-forward:active {
+	box-shadow: inset -4px -4px 12px #f1f1f1,
+	 				  inset 3px 3px 10px 0px #b8bad4,
+	      			  5px 5px 6px -3px #b8bad4,
+					  -5px -5px 6px -6px #fff;
+  	color: black;
+
+}
+#check-rotate {
+	background: linear-gradient(67deg , #D1DFEB , #E9EDF0);
+	padding: 5px;
+	border-radius: 50%;
+	box-shadow: inset -4px -4px 12px #f1f1f1,
+	 			inset 3px 3px 10px 0px #b8bad4,
+	      		5px 5px 6px -3px #b8bad4,
+				-5px -5px 6px -6px #fff;
+	cursor: pointer;
+	transition: 1s;
+}
+.fa-sync {
+	font-size: 20px;
+	transition: 2s;
+}
+#check-rotate:checked + #check-rotate {
+	box-shadow: -8px -8px 18px -4px #fff,
+          		7px 8px 17px #b8bad4;
+}
+#check-rotate:checked + #check-rotate .fa-sync {
+	transform: rotate(2300deg);
+}
+
+#check-retweet {
+	background: linear-gradient(67deg , #D1DFEB , #E9EDF0);
+	padding: 6px 4px;
+	border-radius: 50%;
+	box-shadow: inset -4px -4px 12px #f1f1f1,
+	 			inset 3px 3px 10px 0px #b8bad4,
+	      		5px 5px 6px -3px #b8bad4,
+				-5px -5px 6px -6px #fff;
+	cursor: pointer;
+}
+.fa-retweet {
+	font-size: 20px;
+	transition: 2s;
+}
+
+#check-retweet:checked + #check-retweet {
+	box-shadow: -8px -8px 18px -4px #fff,
+          		7px 8px 17px #b8bad4;
+}
+#check-retweet:checked + #check-retweet .fa-retweet {
+	transform: rotate(2342deg);
+}
