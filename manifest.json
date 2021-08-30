@@ -9,7 +9,7 @@
     "icons": [
         {
             "src": "./music.png",
-            "type": "image/jpg",
+            "type": "image/png",
             "size": "512x512"
         }
     ] 
