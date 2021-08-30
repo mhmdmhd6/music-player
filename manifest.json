@@ -1,6 +1,6 @@
 {
-    "name": "Zoom Image",
-    "short_name": "ZoomImage",
+    "name": "Music player",
+    "short_name": "MusicPlayer",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#DCE9E9",
