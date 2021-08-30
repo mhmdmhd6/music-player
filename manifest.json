@@ -2,15 +2,50 @@
     "name": "Zoom Image",
     "short_name": "ZoomImage",
     "start_url": "./index.html",
-    "display": "browser",
+    "display": "standalone",
     "background_color": "#DCE9E9",
     "theme_color": "#d1d1d1",
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "./music.png",
+            "src": "./icons/77x77.png",
             "type": "image/png",
-            "size": "512x512"
+            "sizes": "77x77"
+        },
+        {
+            "src": "./icons/96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./icons/128x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./icons/144x44.png",
+            "type": "image/png",
+            "sizes": "144x44"
+        },
+        {
+            "src": "./icons/152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "./icons/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./icons/384x384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "./icons/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ] 
 }
