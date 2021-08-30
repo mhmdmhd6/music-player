@@ -10,7 +10,7 @@
         {
             "src": "./music.png",
             "type": "image/jpg",
-            "size": "96x96"
+            "size": "512x512"
         }
     ] 
 }
