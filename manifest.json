@@ -8,7 +8,7 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "./icon.png",
+            "src": "./music.png",
             "type": "image/jpg",
             "size": "96x96"
         }
