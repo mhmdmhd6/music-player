@@ -4,7 +4,7 @@ self.addEventListener('install', evnt => {
 });
 
 
-// activate event
+// activate service worker
 self.addEventListener('activate', evnt => {
     console.log("Service worker was activated!");
 });
