@@ -1,0 +1,16 @@
+{
+    "name": "Zoom Image",
+    "short_name": "ZoomImage",
+    "start_url": "./index.html",
+    "display": "browser",
+    "background_color": "#DCE9E9",
+    "theme_color": "#d1d1d1",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./icon.png",
+            "type": "image/jpg",
+            "size": "96x96"
+        }
+    ] 
+}
